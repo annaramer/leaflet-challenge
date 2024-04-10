@@ -29,7 +29,7 @@ function createEarthquakeVisualization(earthquakeData) {
                                                     '#a6ff79';
 
     // Function to determine the radius based on magnitude
-    let getRadius = magnitude => magnitude * 5;
+    let getRadius = magnitude => magnitude * 3;
 
     // Loop through the earthquake data to create markers
     earthquakeData.features.forEach(feature => {
